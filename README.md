@@ -3,6 +3,8 @@
 Animate content from server on 'in-view' scroll interaction using  [tracks.js](https://github.com/nicolasdelfino/tracks),<br />
 Gustaf Nilsson Kotte's [h-include](https://github.com/gustafnk/h-include) and an h-include extension I wrote called h-include-animated.
 
+Relevant code: h-include-extensions.js / main.js
+
 ## Installation
 
 `npm install`
