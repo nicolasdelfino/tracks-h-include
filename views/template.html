@@ -1,0 +1,37 @@
+<!-- welcome.ejs -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=11" />
+  <title>tracks.js & h-include</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <script type="text/javascript" src="//unpkg.com/document-register-element"></script>
+  <script type="text/javascript" src="//unpkg.com/tracks-js@1.3.2/dist/tracks.iife.js"></script>
+  <script type="text/javascript" src="/js/loadjs.min.js"></script>
+  <script type="text/javascript" src="/js/h-include.js"></script>
+  <script type="text/javascript" src="/js/h-include-extensions.js"></script>
+  <script type="text/javascript" src="/js/main.js"></script>
+</head>
+
+<body>
+  <div class="dashboard">
+    <img src="/images/tracks.png" width="80" />
+    <h1>tracks.js with h-include animated extension and h-include-lazy for the footer</h1>
+    <div class="links">
+      <a href="https://github.com/gustafnk/h-include" alt="h-include link">h-include</a> |
+      <a href="https://github.com/nicolasdelfino/tracks" alt="tracks.js">tracks.js</a>
+    </div>
+    <p class="amount">Panels loaded with h-include:<span id="amount"></span></p>
+  </div>
+  <div id="scrollArea">
+    <div class="panels">
+    </div>
+    <div id="target"></div>
+  </div>
+</body>
+
+</html>
